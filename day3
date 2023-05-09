@@ -1,0 +1,114 @@
+//var 
+//1. Hoisting
+//2. Redeclaration is possible
+//3. Global Scope
+
+//let 
+//1. Prevent Hoisting
+//2. Redeclaration is not possible
+//3. Local scope
+
+
+// Hoisting
+//  //undefined
+
+// let pi = 3.14
+// console.log(pi*7*7)
+
+// // console.log(a) // 10
+
+//Redeclaration
+// var a = 10
+// var a = 20
+
+//Reassiginment
+// var a = 10
+// a = 20
+
+
+// if(true)
+// {
+//     let a = 10
+//     // console.log('Inside',a)
+// }
+// console.log('Outside',a)
+
+// const pi=10
+
+
+
+// var a = 10
+// if(true)
+// {
+//     var a = 15
+//     if(true)
+//     {
+//         let a = 20
+//         a=30
+//         console.log(a)
+//     }
+    
+//     console.log(a)
+// }
+
+// console.log(a)
+
+
+//Find the greatest number present in an array
+// let a = [8,4,5,9,6,11,5]
+// let max = a[0]
+// for(let i=1;i<a.length;i++)
+// {
+//     if(a[i]>max)
+//         max = a[i]
+//     console.log(max,a[i])
+// }
+// console.log(max)
+
+//JOSN
+
+// let details = [
+//         {
+//             name:"Krish",
+//             email:"krish@gmail.com",
+//             mobile:["91091082919","89898919010"],
+//             age:27,
+//             address:{
+//                 no:"121A",
+//                 street:"Vivekanandhar Street",
+//                 city:"Dubai"
+//             }
+//         },
+//         {
+//             name:"Gopal",
+//             email:"gopal@gmail.com",
+//             mobile:["7989291901","829981091"],
+//             age:27,
+//             address:{
+//                 no:"121A",
+//                 street:"Vivekanandhar Street",
+//                 city:"Dubai"
+//             }
+//         }
+//     ]
+
+// for(let i=0;i<details.length;i++)
+// {
+//     if(details[i]["name"]==="Gopal")
+//     {
+//         console.log(details[i])
+//     }
+// }
+
+
+// console.log(details[1]["address","mobile"])
+
+// let name="Baskar"
+// let email = "baskar@gmail.com"
+// let mobile = "89191891"
+
+// let obj = {name,email,mobile,"id no":"123"}
+// obj.life=100
+// console.log(obj)
+
+
